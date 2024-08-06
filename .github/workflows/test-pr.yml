@@ -39,7 +39,7 @@ jobs:
       - name: 'Build kmultiversx'
         run: docker exec -t elrond-semantics-ci-${GITHUB_SHA} make kmultiversx
       - name: 'Build K definitions'
-        run: docker exec -t elrond-semantics-ci-${GITHUB_SHA} make build-all
+        run: docker exec -t elrond-semantics-ci-${GITHUB_SHA} make build-mandos build-kasmer
       - name: 'KMultiversX Tests'
         run: docker exec -t elrond-semantics-ci-${GITHUB_SHA} make -C kmultiversx test
       - name: 'Simple Tests'
