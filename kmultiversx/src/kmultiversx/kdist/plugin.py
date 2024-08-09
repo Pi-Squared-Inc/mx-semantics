@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import shutil
-import sys
 from distutils.dir_util import copy_tree
 from pathlib import Path
 from typing import TYPE_CHECKING
