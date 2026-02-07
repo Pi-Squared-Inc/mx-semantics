@@ -16,7 +16,7 @@ This repository the semantics of the [MultiversX](https://multiversx.com/) (form
 
 ### Installing Dependencies
 
-Python3 and WABT should be installable via your system's package manager alongside with the follwoing other dependencies.
+Python3 and WABT should be installable via your system's package manager alongside with the following other dependencies.
 We use the Ubuntu package manager as an example:
 ```bash
 sudo apt-get install --yes               \
@@ -37,7 +37,7 @@ sudo apt-get install --yes               \
 
 #### K Framework
 
-You need to install the [K Framework](https://kframework.org/) on your system. While you can build it [from soucre](https://github.com/runtimeverification/k?tab=readme-ov-file#prerequisite-install-guide), the fastest way is via the [kup package manager](https://github.com/runtimeverification/kup).
+You need to install the [K Framework](https://kframework.org/) on your system. While you can build it [from source](https://github.com/runtimeverification/k?tab=readme-ov-file#prerequisite-install-guide), the fastest way is via the [kup package manager](https://github.com/runtimeverification/kup).
 
 To install `kup` simply run
 ```bash
@@ -58,7 +58,7 @@ For more complete instructions see the [official installer](https://python-poetr
 
 #### Rustup
 
-To install Rust and the necessary crates you have to [install `rustup`](https://www.rust-lang.org/tools/install), which can be done by ruuning the following on a Unix-like OS:
+To install Rust and the necessary crates you have to [install `rustup`](https://www.rust-lang.org/tools/install), which can be done by running the following on a Unix-like OS:
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
